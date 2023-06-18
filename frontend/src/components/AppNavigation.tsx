@@ -11,7 +11,7 @@ export default function AppNavigation({}) {
         <Link href={"/collectibles"}>My Collection</Link>
       </li>
       <li>
-        <Link href={"/holders"}>Token-Gated Perks</Link>
+        <Link href={"/holders"}>The Patronage Perks</Link>
       </li>
       <li>
         <Link href={"/experiences"}>Experiences</Link>

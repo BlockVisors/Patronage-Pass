@@ -90,7 +90,8 @@ export default function AppHeader({}) {
       <nav className={"container " + styles.wrapper} ref={navMenuRef}>
         <section className={styles.staticArea}>
           <Link href={"/"} className="flex space-x-3">
-            <Image src={"/logo.svg"} width={120} height={47} alt="Magic.link" />
+            {/* <Image src={"/logo.svg"} width={120} height={47} alt="Magic.link" /> */}
+             <span class="text-xl semibold: 800">Patronage Pass</span>
             <span className="badge">demo</span>
           </Link>
 

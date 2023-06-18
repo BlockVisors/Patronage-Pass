@@ -8,7 +8,7 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 contract NFT is ERC721, ERC721URIStorage, Ownable {
     uint256 private _tokenId;
 
-    constructor() ERC721("TestNFT", "TNFT") {}
+    constructor() ERC721("PatronagePassNFT", "PPASS") {}
 
     function totalSupply() public view returns (uint256) {
         return _tokenId;

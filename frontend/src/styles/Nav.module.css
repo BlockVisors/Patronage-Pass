@@ -44,3 +44,7 @@
 .burger {
   @apply block lg:hidden;
 }
+
+/* .logo-text {
+  text-lg;
+} */
